@@ -8,6 +8,6 @@ int main(){
     float total_price2 = ((price1 + price2) - (((price1 + price2) * 0.15)));
     printf("price2 = %.2f\n", total_price2);
     scanf("%f",&price3);
-    float total_price3 = ((price3 + price1 + price2) - (((price3+price1 + price2) * 0.30)));
+    float total_price3 = ((price1 + price2 + price3) - (((price1 + price2 + price3) * 0.30)));
     printf("price3 = %.2f\n", total_price3);
 }
